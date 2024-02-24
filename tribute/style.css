@@ -1,0 +1,41 @@
+body{
+    background-color: #FFEDEB;
+    font-family: poppins;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Montserrat;
+}
+.heading{
+    font-size: 50px;
+    text-align: center;
+}
+
+.hero{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: larger;
+}
+.content{
+    width: 80%;
+    margin: auto;
+}
+blockquote{
+    border: 2px solid black;
+    width: max-content;
+    padding: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin: 15px auto;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+blockquote:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
